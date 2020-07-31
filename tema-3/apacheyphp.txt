@@ -1,0 +1,12 @@
+APACHE Y MARIA DB
+
+1. apt-get install apache2 apache2-utils mariadb-server mariadb-client
+
+PHP 7.4
+
+1. sudo apt install -y curl wget gnupg2 ca-certificates lsb-release apt-transport-https
+2. wget https://packages.sury.org/php/apt.gpg
+3. sudo apt-key add apt.gpg
+4. echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.list
+5. sudo apt update
+6. sudo apt install -y php7.4 php7.4-cli php7.4-common
