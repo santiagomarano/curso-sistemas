@@ -1,0 +1,14 @@
+¡Hola Santi!
+
+Tu trabajo está muy bien!
+El uso de atributos, y composición en HTML está perfecta.
+
+Pequeño detalle, o sugerencia. 
+El botón borrar le podés poner lo siguiente:
+
+<button style="width:100%">
+
+De esa manera asegurás que pueda ocupar el 100% del tamaño que le disponga el 
+elemento que lo contiene, osea, el <td> que ya en tu caso tiene el colspan=4.
+
+Saludos!
